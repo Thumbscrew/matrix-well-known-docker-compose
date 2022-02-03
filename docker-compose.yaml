@@ -11,4 +11,5 @@ services:
       - proxy
     environment:
       ROOT_DOMAIN_NAME: ${ROOT_DOMAIN_NAME}
-      MATRIX_URL: ${MATRIX_URL}
+      MATRIX_DOMAIN: ${MATRIX_DOMAIN}
+      MATRIX_FED_PORT: ${MATRIX_FED_PORT}
